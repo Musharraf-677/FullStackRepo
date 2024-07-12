@@ -1,5 +1,6 @@
 package com.nit.service;
 
-public class Arithematic {
+public class Arithematic 
+{
 
 }
