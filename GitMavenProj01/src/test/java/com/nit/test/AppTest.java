@@ -17,5 +17,25 @@ public class AppTest
 		assertEquals(expected, actual);
 		
 	}
+	
+	@Test
+	public void testWithNegatives()
+	{
+		Arithematic ar = new Arithematic();
+		int expected = -50;
+		int actual = ar.sum(-25,-25);
+		assertEquals(expected, actual);
+		
+	} 
+	
+	@Test
+	public void testWithZeros()
+	{
+		Arithematic ar = new Arithematic();
+		int expected = 0;
+		int actual = ar.sum(0,0);
+		assertEquals(expected, actual);
+		
+	}
 
 }
