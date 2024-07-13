@@ -22,8 +22,8 @@ public class AppTest
 	public void testWithNegatives()
 	{
 		Arithematic ar = new Arithematic();
-		int expected = -50;
-		int actual = ar.sum(-25,-25);
+		int expected = -200;
+		int actual = ar.sum(-100,-100);
 		assertEquals(expected, actual);
 		
 	} 
