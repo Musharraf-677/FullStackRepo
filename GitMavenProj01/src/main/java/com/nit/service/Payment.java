@@ -7,5 +7,11 @@ public class Payment
 		return "Payment is done by online payment";
 		
 	}
+	
+	public String payPayroll()
+	{
+		return "Payment done";
+		
+	}
 
 }
