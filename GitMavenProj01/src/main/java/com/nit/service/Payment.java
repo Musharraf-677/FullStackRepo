@@ -14,4 +14,9 @@ public class Payment
 		
 	}
 
+	public String bharatPay()
+	{
+		return "Payment done Succesfully";
+		
+	}
 }
